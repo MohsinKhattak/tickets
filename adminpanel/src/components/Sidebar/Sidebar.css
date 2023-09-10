@@ -1,0 +1,35 @@
+.sidebar {
+    flex: 1;
+    height: calc(100vh - 1rem);
+    position: sticky;
+    top: 0;
+}
+
+.sidebar_links {
+    height: 100%;
+}
+
+.nav_link {
+    color: var(--neutral-07-light, #181b1f);
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.14px;
+}
+
+.active_link {
+    border-radius: 48px;
+    border: 3px solid var(--primary);
+}
+
+.link_item {
+    padding: 6px 16px 6px 6px;
+}
+
+.nav_icon {
+    padding: 8px;
+}
+
+.active_link img {
+    border-radius: 32px;
+    background: #7366ff;
+}

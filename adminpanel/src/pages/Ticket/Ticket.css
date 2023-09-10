@@ -1,0 +1,126 @@
+.page {
+    background-color: var(--neutral-01-light);
+    border-radius: 20px;
+}
+
+.header_img {
+    width: 100% !important;
+}
+
+.page_content {
+    border-radius: 20px;
+    background: var(--neutral-01-light);
+    backdrop-filter: blur(12px);
+    border: 1px solid var(--neutral-03-light);
+    position: relative;
+    top: -20%;
+    z-index: 9999;
+}
+
+.page_topbar {
+    display: inline-flex;
+    padding: 20px 32px;
+    align-items: center;
+    border-bottom: 1px solid var(--neutral-03-light);
+}
+
+.page_left_icon {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #7366ff;
+}
+
+.page_right_icon {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 12px;
+    border: 1.5px solid var(--neutral-03-light);
+}
+
+.page_data {
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.page_data_item1,
+.page_data_item2,
+.page_data_item3 {
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 26px;
+    flex: 1 0 0;
+    border-radius: 20px;
+    align-self: stretch;
+}
+
+.page_data_item1 {
+    background: var( --pastel-gradient-1, linear-gradient(135deg, #f3eee2 0%, #def0d6 64.82%));
+}
+
+.page_data_item2 {
+    background: var( --pastel-gradient-3, linear-gradient(135deg, #e2f3e9 0%, #e0f8ff 64.82%));
+}
+
+.page_data_item3 {
+    background: var( --pastel-gradient-4, linear-gradient(135deg, #fff2df 0%, #e7e1ff 64.82%));
+}
+
+.page_data_icon {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: var(--neutral-01-light);
+    /* Depth/02 */
+    box-shadow: 0px 16px 16px -4px rgba(0, 0, 0, 0.1);
+}
+
+.state {
+    color: var(--neutral-07-light);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    /* 116.667% */
+    letter-spacing: -0.48px;
+}
+
+@media only screen and (max-width: 768px) {
+    .page_content {
+        top: -10% !important;
+    }
+    .header_img {
+        height: 250px;
+    }
+}
+
+@media screen and (min-width: 768px),
+screen and (max-width: 938px) {
+    .page_content {
+        top: -10% !important;
+    }
+}
+
+@media only screen and (min-width: 938px) {
+    .page_content {
+        top: -20% !important;
+    }
+}

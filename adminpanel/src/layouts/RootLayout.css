@@ -1,0 +1,16 @@
+.root-layout {
+    display: flex;
+    background-color: var(--neutral-02-light);
+    padding: 1rem;
+}
+
+.content {
+    flex: 5;
+    background-color: var(--neutral-01-light);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.header_img {
+    width: 100%;
+}

@@ -1,0 +1,32 @@
+body {
+    font-family: "Open Sans";
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: var(--neutral-02-light);
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.link:hover {
+    color: inherit;
+}
+
+.typography {
+    color: var(--neutral-07-light, #181b1f);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    /* 166.667% */
+    letter-spacing: -0.12px;
+    margin-bottom: 0 !important;
+}

@@ -1,0 +1,18 @@
+/* EditProfile.css */
+
+.avatar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    /* Adjust the spacing as needed */
+}
+
+.avatar-img {
+    width: 100px;
+    /* Adjust the size of the avatar */
+    height: 100px;
+}
+
+
+/* Rest of your existing CSS styles */
